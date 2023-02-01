@@ -98,7 +98,7 @@
 <h2 id="查看已有环境"><a href="#查看已有环境" class="headerlink" title="查看已有环境"></a>查看已有环境</h2><p><code>conda info --envs</code></p>
 <h2 id="激活环境"><a href="#激活环境" class="headerlink" title="激活环境"></a>激活环境</h2><p>Linux 系统下需要首先激活基础环境：<br><code>source activate</code><br><code>conda activate env_name</code></p>
 <h2 id="退出环境"><a href="#退出环境" class="headerlink" title="退出环境"></a>退出环境</h2><p><code>conda deactivate</code></p>
-<h1 id="Pytorch安装"><a href="#Pytorch安装" class="headerlink" title="Pytorch安装"></a>Pytorch安装</h1><h2 id="安装步骤"><a href="#安装步骤" class="headerlink" title="安装步骤"></a>安装步骤</h2><p><code>nvidia-smi</code>查看当前GPU的所有基础信息<br>如果驱动版本较低，可以在<a target="_blank" rel="noopener" href="https://www.nvidia.cn/download/driverResults.aspx/198832/cn/">Nvidia官网</a>更新驱动<br>进入<a target="_blank" rel="noopener" href="https://pytorch.org/">Pytorch官网</a>，在<font color=Red>pytorch环境</font>中运行安装命令</p>
+<h1 id="Pytorch安装"><a href="#Pytorch安装" class="headerlink" title="Pytorch安装"></a>Pytorch安装</h1><h2 id="安装步骤"><a href="#安装步骤" class="headerlink" title="安装步骤"></a>安装步骤</h2><p><code>nvidia-smi</code>查看当前GPU的所有基础信息<br>如果驱动版本较低，可以在<a target="_blank" rel="noopener" href="https://www.nvidia.cn/download/driverResults.aspx/198832/cn/">Nvidia官网</a>更新驱动<br><a target="_blank" rel="noopener" href="https://developer.nvidia.com/cuda-downloads">安装cuda</a><br>进入<a target="_blank" rel="noopener" href="https://pytorch.org/">Pytorch官网</a>，在<font color=Red>pytorch环境</font>中运行安装命令，使用pip安装</p>
 <h2 id="检验安装"><a href="#检验安装" class="headerlink" title="检验安装"></a>检验安装</h2><p>进入python<br><code>import torch</code><br><code>torch.cuda.is_available()</code><br>返回True则成功</p>
 
       
